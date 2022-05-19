@@ -1,2 +1,1 @@
-# pixel-painter
-Paint with pixels!
+paint with pixels
