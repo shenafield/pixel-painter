@@ -1,0 +1,25 @@
+@import "nord/src/sass/nord.scss"
+
+.app
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    width: 100vw
+    height: 100vh
+
+    .row
+        display: flex
+        flex-direction: row
+        
+        .pixel
+            display: block
+
+            width: 16px
+            height: 16px
+
+            background-color: $nord0
+
+            &.active
+                background-color: $nord13
